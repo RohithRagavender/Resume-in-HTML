@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, ;
+    color: rgba(33, 33, 35, 0.666);
+
+}
+
+.page {
+    border: 5px solid black;
+    width: 850px;
+    height: 71em;
+    margin: 80px auto;
+    background: linear-gradient(135deg, #6c83e9 40%,  rgb(142, 155, 236));
+}
+
+
+/*iMAGEES*/
+
+.left-side .image img {
+    width: 300px;
+}
+
+.left-side {
+    background: linear-gradient(135deg, #6c83e9 60%, rgb(142, 155, 236));
+    width: 300px;
+    height: 70.4em;
+    float: left;
+}
+
+.name {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*DETAILS*/
+.detail {
+    margin: px;
+    display: flex;
+    padding: 10px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    flex-wrap: wrap;
+}
+
+.left-side .detail .address {
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+}
+
+.left-side .detail .contact {
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+}
+
+.address p {
+    padding: 2px;
+}
+
+.contact p {
+    padding: 2px;
+}
+
+.email p {
+    padding: 2px;
+}
+
+.left-side .detail .email {
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+}
+
+.detail img {
+    width: 25px;
+    background-color: transparent;
+    height: 15px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 45%;
+}
+
+/*DETAILS*/
+
+/*Skills*/
+
+.skills {
+    border-bottom: 3px solid white;
+    margin: 2px;
+    width: 100%;
+    padding: 5px;
+}
+
+.html {
+    display: flex;
+    margin: 10px;
+    width: max-content;
+}
+
+.html p {
+    font-size: medium;
+    margin: 1px;
+}
+
+.css {
+    display: flex;
+    margin: 10px;
+    width: max-content;
+}
+
+.css p {
+    font-size: medium;
+    margin: 1px;
+}
+
+.js {
+    display: flex;
+    margin: 10px;
+    width: max-content;
+}
+
+.js p {
+    padding: 2px;
+    font-size: medium;
+}
+
+.react {
+    display: flex;
+    width: max-content;
+    margin: 10px;
+}
+
+.react p {
+    font-size: medium;
+}
+
+.sk {
+    padding: 10px;
+}
+
+/*Skills*/
+
+
+/*Socail*/
+.social {
+    border-bottom: 3px solid white;
+    margin: 2px;
+    padding: 5px;
+}
+
+.social .fb {
+    margin-bottom: -79px;
+}
+
+.social .fb img {
+    width: 15px;
+    margin: 35px;
+}
+
+.social .fb a {
+    text-decoration: none;
+    position: relative;
+    bottom: 65px;
+    left: 60px;
+}
+
+.social .fb h2 {
+    font-size: medium;
+    margin: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 55px;
+}
+
+.social .gt {
+    margin-bottom: -82px;
+}
+
+.social .gt img {
+    width: 15px;
+    margin: 35px;
+}
+
+
+.social .gt h2 {
+    font-size: medium;
+    margin: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 55px;
+}
+
+.social .gt a {
+    text-decoration: none;
+    position: relative;
+    bottom: 65px;
+    left: 60px;
+}
+
+.social .LK img {
+    width: 15px;
+    margin: 35px;
+}
+
+.social .LK h2 {
+    font-size: medium;
+    margin: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 55px;
+}
+
+.social .LK a {
+    text-decoration: none;
+    position: relative;
+    bottom: 65px;
+    left: 60px;
+}
+
+/*social*/
+
+/*Right-side*/
+
+.right-side {
+    float: right;
+    width:64.3%;
+    height:100%;
+    border-left: 5px solid black;
+   
+}
+/*About*/
+.About{
+    margin:20px;
+    text-align: justify;
+    padding: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;
+    font-size: large;
+    border-bottom: 3px solid white;
+}
+.About p{
+    font-size: larger;
+}
+
+
+/*Activity*/
+.Act{
+    margin:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;
+    font-size: large;
+    padding: 15px;
+    margin-top: -20px;
+    border-bottom: 3px solid white;
+}
+
+.Act .first ul{
+    list-style:inside
+}
+
+.Act .first li {
+    font-size: larger;
+    padding:15px;
+    margin: 2px;
+}
+
+/*Title*/
+.proj{
+    margin:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;
+    font-size: large;
+    padding: 15px;
+    border-bottom: 3px solid white;
+    margin-top: -10px;
+}
+
+.proj p{
+    padding: 15px ;
+    font-size: larger;
+}
+
+
+/*description*/
+.des{
+    margin:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;
+    font-size: large;
+    margin-top: -25px;
+    padding: 15px; 
+}
+
+.des p{
+    padding:15px;
+    font-size: larger;
+}
